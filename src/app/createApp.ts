@@ -4,7 +4,7 @@ import { CommandParser } from "../cli/CommandParser";
 import { MessageFormatter } from "../cli/MessageFormatter";
 import { Session } from "../cli/Session";
 import { BankService } from "../services/BankService";
-import { CustomerRepository } from "../services/CustomerRepository";
+import { CustomerRepository } from "../repositories/CustomerRepository";
 
 export function createApp(): { cli: AtmCli; handler: CommandHandler } {
   const repository = new CustomerRepository();

@@ -51,7 +51,8 @@ src/
   app/           # Composition root (wiring)
   cli/           # Parser, session, handler, I/O loop, formatting
   domain/        # Customer entity
-  services/      # Bank rules + in-memory repository
+  services/      # Bank business rules
+  repositories/  # In-memory customer store
   index.ts       # Entry point
 tests/           # Vitest unit + sample-session tests
 start.sh         # Required launcher

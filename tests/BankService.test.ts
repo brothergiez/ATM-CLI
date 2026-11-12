@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { BankService } from "../src/services/BankService";
-import { CustomerRepository } from "../src/services/CustomerRepository";
+import { CustomerRepository } from "../src/repositories/CustomerRepository";
 
 function setup() {
   const repository = new CustomerRepository();

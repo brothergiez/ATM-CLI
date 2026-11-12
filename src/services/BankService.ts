@@ -1,5 +1,5 @@
 import { Customer } from "../domain/Customer";
-import { CustomerRepository } from "./CustomerRepository";
+import { CustomerRepository } from "../repositories/CustomerRepository";
 
 export interface AccountSnapshot {
   balance: number;
